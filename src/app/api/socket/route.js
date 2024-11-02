@@ -1,8 +1,8 @@
 import { Server } from 'socket.io';
 
-let io: Server;
+let io
 
-export function POST(req: any, res: any) {
+export function POST(req, res) {
     if (!res.socket.server.io) {
         console.log('Setting up Socket.io server...');
         io = new Server(res.socket.server);
