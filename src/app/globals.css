@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+video {
+  width: 45%;
+  margin: 2%;
+  border: 1px solid black;
+}
