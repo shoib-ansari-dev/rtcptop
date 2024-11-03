@@ -1,9 +1,14 @@
-import MyComponent from "@/component/MyComponent";
+"use client"
 
-export default function Page() {
+import WebSocketComponent from "@/component/WebSocketComponent";
+
+const Page = () => {
     return (
-        <>
-            <MyComponent/>
-        </>
-    );
-}
+        <div>
+            <h1>Welcome to My WebSocket App</h1>
+            <WebSocketComponent/>
+        </div>
+    )
+};
+
+export default Page;
